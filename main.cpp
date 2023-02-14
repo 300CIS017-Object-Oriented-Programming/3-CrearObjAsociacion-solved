@@ -31,6 +31,12 @@ int main() {
     std::cout << "La raza de  "
               << connor->getNombre() << " es " << connor->getRaza()->getNombre() << std::endl;
 
+    // Eliminar los apuntadores creados.
+    delete pMaltes;
+    delete pMastin;
+    delete luisFelipe;
+    delete connor;
+
     /*
     Perro firulais;
     firulais.setNombre("Firulais");
